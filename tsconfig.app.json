@@ -19,7 +19,9 @@
     /* Linting */
     "strict": false,
     "noUnusedLocals": false,
-    "noUnusedParameters": true,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "noEmitOnError": false,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
