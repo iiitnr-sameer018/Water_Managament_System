@@ -1,0 +1,121 @@
+/* ============================================
+   DESIGN SYSTEM — WATER COMPLAINT MANAGEMENT
+   Smart City / Digital India Inspired
+   ============================================ */
+
+:root {
+  /* ── Primary Palette ── */
+  --primary: #1E3A8A;
+  --primary-hover: #1e40af;
+  --primary-light: rgba(30, 58, 138, 0.08);
+  --primary-dark: #172554;
+
+  /* ── Secondary (Saffron) ── */
+  --secondary: #F97316;
+  --secondary-hover: #ea580c;
+  --secondary-light: rgba(249, 115, 22, 0.08);
+
+  /* ── Accent Colors ── */
+  --accent: #16A34A;
+  --highlight: #0EA5E9;
+  --highlight-light: rgba(14, 165, 233, 0.08);
+
+  /* ── Status Colors ── */
+  --success: #16A34A;
+  --success-light: rgba(22, 163, 74, 0.08);
+  --warning: #EAB308;
+  --warning-light: rgba(234, 179, 8, 0.08);
+  --error: #DC2626;
+  --error-light: rgba(220, 38, 38, 0.08);
+  --info: #0EA5E9;
+  --info-light: rgba(14, 165, 233, 0.08);
+
+  /* ── Neutral Scale ── */
+  --slate-50: #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-400: #94a3b8;
+  --slate-500: #64748b;
+  --slate-600: #475569;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
+
+  /* ── Background ── */
+  --bg-main: #F1F5F9;
+  --bg-card: #FFFFFF;
+  --bg-elevated: rgba(255, 255, 255, 0.95);
+
+  /* ── Text ── */
+  --text-main: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+
+  /* ── Gradients ── */
+  --grad-blue: linear-gradient(135deg, #1E3A8A 0%, #0EA5E9 100%);
+  --grad-blue-subtle: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  --grad-saffron: linear-gradient(135deg, #F97316 0%, #FB923C 100%);
+  --grad-green: linear-gradient(135deg, #16A34A 0%, #4ADE80 100%);
+  --grad-dark: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  --grad-glass: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(241,245,249,0.9) 100%);
+
+  /* ── Typography ── */
+  --font-sans: 'Inter', 'Noto Sans Devanagari', system-ui, -apple-system, sans-serif;
+  --font-display: 'Poppins', 'Noto Sans Devanagari', system-ui, -apple-system, sans-serif;
+
+  /* ── Border Radius ── */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  --shadow-primary: 0 4px 14px rgba(30, 58, 138, 0.25);
+  --shadow-saffron: 0 4px 14px rgba(249, 115, 22, 0.25);
+  --shadow-success: 0 4px 14px rgba(22, 163, 74, 0.25);
+  --shadow-glow-blue: 0 0 20px rgba(14, 165, 233, 0.15);
+
+  /* ── Spacing (8px grid) ── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ── Transitions ── */
+  --ease-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+}
+
+/* High Contrast Mode */
+[data-theme='high-contrast'] {
+  --primary: #0000ff;
+  --primary-hover: #00008b;
+  --secondary: #ff4500;
+  --bg-main: #ffffff;
+  --bg-card: #ffffff;
+  --text-main: #000000;
+  --text-muted: #333333;
+  --success: #006400;
+  --error: #8b0000;
+}
